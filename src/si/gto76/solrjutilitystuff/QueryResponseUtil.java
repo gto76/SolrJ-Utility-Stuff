@@ -48,7 +48,7 @@ public class QueryResponseUtil {
 	}
 
 	public static void divideScoresBy(QueryResponse qr, double divider) {
-		SolrDocumentListUtil.devideAllScoresBy(qr.getResults(), divider);
+		SolrDocumentListUtil.divideAllScoresBy(qr.getResults(), divider);
 	}
 
 	public static void multiplyScoresBy(QueryResponse qr, double factor) {

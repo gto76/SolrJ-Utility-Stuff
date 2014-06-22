@@ -42,7 +42,7 @@ public class SolrDocumentUtil {
 		setScore(doc, oldScore + addend);
 	}
 
-	public static void devideScoreBy(SolrDocument doc, double divider) {
+	public static void divideScoreBy(SolrDocument doc, double divider) {
 		double oldScore = getScore(doc);
 		setScore(doc, oldScore / divider);
 	}

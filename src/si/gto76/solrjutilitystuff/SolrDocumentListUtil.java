@@ -105,9 +105,9 @@ public class SolrDocumentListUtil {
 
 	}
 
-	public static void devideAllScoresBy(SolrDocumentList ddd, double divider) {
+	public static void divideAllScoresBy(SolrDocumentList ddd, double divider) {
 		for (SolrDocument d : ddd) {
-			SolrDocumentUtil.devideScoreBy(d, divider);
+			SolrDocumentUtil.divideScoreBy(d, divider);
 		}
 	}
 
